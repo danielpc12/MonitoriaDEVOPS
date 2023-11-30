@@ -18,3 +18,9 @@ jobs:
       run: |
         echo Varias Lineas
         ls -la
+    - name: Nueva Funcion
+      run: |
+        echo "Directorio Actual:"
+        pwd
+        echo "Listado de Archivos:"
+        ls
